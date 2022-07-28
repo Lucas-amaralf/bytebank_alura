@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Funcionarios\NovaPasta\**" />
+    <Compile Remove="NovaPasta\**" />
+    <EmbeddedResource Remove="Funcionarios\NovaPasta\**" />
+    <EmbeddedResource Remove="NovaPasta\**" />
+    <None Remove="Funcionarios\NovaPasta\**" />
+    <None Remove="NovaPasta\**" />
+  </ItemGroup>
+
+</Project>
